@@ -19,4 +19,4 @@ function init(e) {
 }
 
 const body = document.querySelector('body');
-body.addEventListenner
+body.addEventListener('keydown',init(val));
