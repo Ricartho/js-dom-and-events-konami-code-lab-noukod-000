@@ -20,4 +20,4 @@ function init() {
 }
 
 const body = document.querySelector('body');
-body.addEventListener('keydown',init(val));
+body.addEventListener('keydown',onKeyDownHandler);
