@@ -5,7 +5,7 @@ function init() {
   let index = 0;
 
   function onKeyDownHandler(e) {
-    e.stopPropagation();
+    //e.stopPropagation();
     const key = parseInt(e.detail || e.which);
     if (code[index] === key){
       ++index;
