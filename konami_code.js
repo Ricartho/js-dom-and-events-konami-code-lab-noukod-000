@@ -8,7 +8,7 @@ function init(e) {
     //e.stopPropagation();
     const key = parseInt(e.detail || e.which);
     if (code[index] === key){
-      ++index;
+      index++;
       if (index === code.length){
         alert("Hurray!");
         index = 0;
