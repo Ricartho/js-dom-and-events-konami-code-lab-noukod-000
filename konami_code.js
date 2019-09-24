@@ -16,8 +16,7 @@ function init() {
     } else {
       index = 0;
     }
-  
-}
 
 const body = document.querySelector('body');
 body.addEventListener('keydown',onKeyDownHandler());
+}
