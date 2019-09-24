@@ -6,5 +6,7 @@ function init(e) {
   const key = parseInt(e.details || e.which)
   if(key === code[index]){
     index++;
+  }else{
+    index = 0;
   }
 }
