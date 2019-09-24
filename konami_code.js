@@ -4,12 +4,15 @@ let index = 0;
 function init(e) {
   // Write your JavaScript code inside the init() function
   const key = parseInt(e.details || e.which)
-  if(key === code[index]){
+  if(key === code[index])
+  {
     index++;
-      if(index === code.length){
+      if(index === code.length)
+      {
         alert('congrats!!!')
-        }
-  }else{
+      }
+  }else
+  {
     index = 0;
   }
 }
